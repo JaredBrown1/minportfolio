@@ -1,3 +1,4 @@
+@import 'variables.less';
 html { 
   background: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     
@@ -7,6 +8,10 @@ html {
         .section1 {
             display: flex;
             padding-top:20px;
+            @media @mobile {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
         }
             .image1 {
                 width: 350px;
@@ -18,6 +23,11 @@ html {
             border-bottom: dashed black;
             padding-bottom: 20px;
             padding-top: 20px;
+            @media @mobile {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
             .image2 {
                 width: 350px;
                 height: 350px;
@@ -29,6 +39,11 @@ html {
             padding-bottom: 20px;
             display: flex;
             border-bottom: dashed black;
+            @media @mobile {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
             .image3 {
                  width: 350px;
                  height: 350px;
@@ -43,6 +58,11 @@ html {
         }
         .section4 {
             display: flex;
+            @media @mobile {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
             .artifact-logos {
                 font-size: 180px;
                 color: black;
