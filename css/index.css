@@ -7,9 +7,45 @@ html body {
 }
 html body .section1 {
   display: flex;
+  padding-top: 20px;
 }
-html body img {
+html body .image1 {
   width: 350px;
   height: 350px;
   border-radius: 50%;
+}
+html body .section2 {
+  display: flex;
+  border-bottom: dashed black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+html body .section2 .image2 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+html body .section3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  border-bottom: dashed black;
+}
+html body .section3 .image3 {
+  width: 350px;
+  height: 350px;
+  border-radius: 15px 50px;
+}
+html body .section3 .text-section3 a {
+  color: black;
+}
+html body .section4 {
+  display: flex;
+}
+html body .section4 .artifact-logos {
+  font-size: 180px;
+  color: black;
+}
+html body .section4 .artifact-logos i {
+  color: black;
 }
