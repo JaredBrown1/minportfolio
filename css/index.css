@@ -1,0 +1,15 @@
+html {
+  background: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+html body {
+  margin: 0 auto;
+  max-width: 800px;
+}
+html body .section1 {
+  display: flex;
+}
+html body img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
